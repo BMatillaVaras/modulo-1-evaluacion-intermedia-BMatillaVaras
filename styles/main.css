@@ -1,0 +1,42 @@
+/*reset*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/*header*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  padding: 10px 0 13px 0;
+  list-style: none;
+}
+
+.link-menu {
+  padding: 0 10px 0 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4a4a4a;
+}
