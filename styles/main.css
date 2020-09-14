@@ -18,10 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.logo {
-  padding-top: 10px;
+  padding: 10px 0 13px 0;
 }
 
 .menu {
@@ -29,7 +26,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: space-between;
-  padding: 10px 0 13px 0;
+  padding: 10px 0 0 0;
   list-style: none;
   font-size: 16px;
 }
@@ -59,4 +56,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/*media*/
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .menu {
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
 }
