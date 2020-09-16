@@ -27,17 +27,17 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: space-between;
-  padding-top: 10px;
   list-style: none;
   font-size: 16px;
 }
 
 .link-menu {
-  padding: 0 10px 0 10px;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 
 .link {
+  padding: 10px;
   text-decoration: none;
   color: #4a4a4a;
 }
@@ -67,11 +67,7 @@ body {
   .header {
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 30px 20px 30px;
-  }
-
-  .menu {
-    padding: 0px;
+    padding: 20px 20px 20px 30px;
   }
 
   .title {
